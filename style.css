@@ -1,0 +1,122 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.left {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    display: inline-block;
+}
+
+.mid {
+
+    display: block;
+    width: 50%;
+    margin: 50px auto;
+}
+
+.right {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    display: inline-block;
+}
+
+.mid ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px;
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 20px;
+}
+
+.mid ul li a:hover {
+    text-decoration: underline;
+}
+
+.mid ul li,
+.right ul li {
+    display: inline;
+
+}
+
+.mid ul {
+    text-align: center;
+}
+
+.left img {
+    width: 98px;
+    height: 77px;
+}
+
+.logo {
+    color: rgb(16 12 60);
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 20px;
+}
+
+.right ul li a {
+    color: #251983;
+    text-decoration: none;
+    margin: 10px;
+    padding: 6px;
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 18px;
+}
+
+.right ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    position: absolute;
+    top: 170px;
+    left: 170px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    margin: 30px;
+    padding: 40px;
+    width: 350px;
+    height: 290px;
+}
+
+.container div {
+    color: white;
+    text-align: center;
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 25px;
+}
+
+.form-group input {
+    font-family: 'Asap Condensed', sans-serif;
+    border-radius: 10px;
+    width: 270px;
+    height: 25px;
+    padding: 5px;
+    margin: 5px;
+    border: 0px;
+}
+
+.form-group input:hover {
+    background-color: rgb(184 183 232);
+}
+
+.btn {
+    font-family: 'Asap Condensed', sans-serif;
+    border-radius: 10px;
+    width: 120px;
+    height: 28px;
+    padding: 5px;
+    margin: 13px;
+    border: 0px;
+}
+
+.btn:hover {
+    background-color: rgb(29, 29, 200);
+}
